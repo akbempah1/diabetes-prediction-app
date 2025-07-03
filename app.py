@@ -7,7 +7,7 @@ scaler = joblib.load('scaler.joblib')
 
 st.title("Diabetes Prediction App")
 st.write("Enter patient details below:")
-
+# my very own app
 # Input fields
 pregnancies = st.number_input('Pregnancies', min_value=0, max_value=20, value=1)
 glucose = st.number_input('Glucose', min_value=0, max_value=200, value=120)
